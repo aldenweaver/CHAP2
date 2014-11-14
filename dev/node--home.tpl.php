@@ -64,6 +64,7 @@
       <div class="col-lg-12">
 
         <!-- Nav Tabs -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav nav-tabs nav-justified" role="tablist">
           <li role="presentation" class="active"><a href="#">Home</a></li>
           <li role="presentation"><a href="#">About</a></li>
@@ -72,6 +73,7 @@
           <li role="presentation"><a href="#">Donate</a></li>
           <li role="presentation"><a href="#">Homelessness</a></li>
         </ul>
+        </div>
         <!-- /Nav Tabs -->
 
       </div>
@@ -159,7 +161,7 @@
 
       <!-- Body Panel 1 -->
       <div class="col-lg-4">
-        <div class="panel panel-default"style="height:300px">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title text-center">Upcoming Events</h3>
           </div>
@@ -172,7 +174,7 @@
 
       <!-- Body Panel 2 -->
       <div class="col-lg-4">
-        <div class="panel panel-default" style="height:300px">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title text-center">Announcements</h3>
           </div>
@@ -185,12 +187,12 @@
 
       <!-- Body Panel 3 -->
       <div class="col-lg-4">
-        <div class="panel panel-default"style="height:300px">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title text-center">Who We Are</h3>
           </div>
           <div class="panel-body text-left">
-            CHAP (Claremont Homeless Advocacy Program) is a grassroots, all-volunteer group that seeks to end homelessness in the Southern California town of Claremont by advocating for and supporting homeless adult individuals within the community. CHAP provides a variety of services to the 50-plus homeless adults who reside in Claremont, as well as those at risk of becoming homeless, but its primary goal is to secure sustainable housing for these individuals.
+            CHAP (Claremont Homeless Advocacy Program) is a grassroots, all-volunteer group that seeks to end homelessness in Claremont by advocating for and supporting homeless adult individuals within the community. CHAP provides a variety of services to the 50-plus homeless adults who reside in Claremont, as well as those at risk of becoming homeless, but its primary goal is to secure sustainable housing for these individuals.
           </div>
         </div> 
       </div> <!-- /Body Panel 3 -->
@@ -210,7 +212,7 @@
 
           <!-- Mailing List Panel -->
           <div class="col-lg-3">
-              <div class="panel panel-danger"style="height:100px">
+              <div class="panel panel-danger">
                 <div class="panel-heading">
                   <h3 class="panel-title text-center">Join Our Mailing List!</h3>
                 </div>
@@ -228,7 +230,7 @@
 
           <!-- Donate Panel -->
           <div class="col-lg-3">
-              <div class="panel panel-danger"style="height:100px">
+              <div class="panel panel-danger">
                 <div class="panel-heading">
                   <h3 class="panel-title text-center">Donate</h3>
                 </div>
@@ -245,7 +247,7 @@
 
           <!-- Connect Panel -->
           <div class="col-lg-3">
-              <div class="panel panel-danger"style="height:100px"> 
+              <div class="panel panel-danger"> 
                 <div class="panel-heading">
                   <h3 class="panel-title text-center">Connect with CHAP</h3>
                 </div>
@@ -280,14 +282,18 @@
 
           <!-- Contact Panel -->
           <div class="col-lg-3">
-              <div class="panel panel-danger"style="height:100px">
+              <div class="panel panel-danger">
                 <div class="panel-heading">
                   <h3 class="panel-title text-center">Contact</h3>
                 </div>
                 <div class="panel-body">
                   Phone: (555) 555-5555
                   <br>
+                  Fax: (444) 444-4444
+                  <br>
                   Email: CHAP@CHAP.org
+                  <br>
+                  Mailing Address: 1 CHAP Ave, Claremont, CA 91711
                 </div> <!-- /Panel Body -->
               </div> <!-- /Panel -->
           </div> <!-- /Contact Panel -->
