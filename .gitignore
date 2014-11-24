@@ -19,3 +19,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Ignore ALL .DS_Store
+dev/.DS_Store
+template2/.DS_Store
+template2/pictures/.DS_Store
+~/.DS_Store
