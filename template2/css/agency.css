@@ -179,6 +179,11 @@ fieldset[disabled] .btn-xl.active {
     color: #A84961;
 }
 
+.navbar-default .navbar-little {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #A84961;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
