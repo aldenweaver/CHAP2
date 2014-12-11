@@ -338,11 +338,11 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding-top: 100px ;
 }
 
 section h2.section-heading {
-    margin-top: -75px;
+    margin-top: -95px;
     margin-bottom: -15px;
     font-size: 40px;
 }
