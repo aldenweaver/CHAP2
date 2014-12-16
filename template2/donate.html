@@ -24,6 +24,9 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,7 +49,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index.html"><b><img src="img/CHAP_logo.png"> Claremont Homeless Advocacy Program</b></a>
+      <a class="navbar-brand" href="/index.html"><img src="pictures/CHAP_logo_horizontal.png" style="max-width:100%;height:auto;"></a>
+      <a class="navbar-little" href="/index.html"><img src="pictures/CHAP_logo_horizontal.png" style="max-width:100%;height:auto;"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,7 +73,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Donate to CHAP</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <h3 class="section-subheading text-muted">Both monetary and item donations are gratefully accepted.</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -114,7 +118,7 @@
         </div>
     </section>
         <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="services">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12 text-center">
@@ -151,12 +155,12 @@
                         <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">By Mail</h4>
-                    <p class="text-muted">
+                    <div class="text-muted text-left">
                     If you wish to donate by mail, please send payment to:<br>
-                    Claremont Homeless Advocacy Program<br>
-                    c/o The Claremont Friends Meeting House<br>
-                    727 Harrison Ave<br>
-                    Claremont, CA 91711<br><br></p>
+                    &nbsp Claremont Homeless Advocacy Program<br>
+                    &nbsp c/o The Claremont Friends Meeting House<br>
+                    &nbsp 727 Harrison Ave<br>
+                    &nbsp Claremont, CA 91711<br><br></div>
                 </div>
                 <div class="col-md-12">
                     
@@ -165,23 +169,65 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; CHAP 2014</span>
+                <div class="col-md-2">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="https://www.facebook.com/claremonthomelessadvocacyprogram">Like Us On Facebook!</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="/donate.html">Donate</a></li>
+                    </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="/donate.html">Donate</a></li>
+                        <li><span class="copyright">Copyright &copy; CHAP 2014</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-inline quicklinks">
                         <li><a href="/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="/contact.html" data-toggle="modal" data-target="#myModal">Join Our Email List!</a></li>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cancel</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Join Our Email List!</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- /FOOTER -->
+
 
 
     <!-- jQuery -->
