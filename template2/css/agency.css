@@ -513,6 +513,13 @@ section h3.section-subheading {
     background-color: #C93F4F;
 }
 
+.timeline>li .timeline-image h1 {
+    margin-top: 15px;
+    font-size: 36px;
+    line-height: 26px;
+    margin-left: -45px;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -581,6 +588,13 @@ section h3.section-subheading {
         margin-left: -50px;
     }
 
+    .timeline>li .timeline-image h1 {
+        margin-top: 20px;
+        font-size: 48px;
+        line-height: 26px;
+        margin-left: -25px;
+    }
+
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
         font-size: 13px;
@@ -609,6 +623,13 @@ section h3.section-subheading {
         margin-left: -75px;
     }
 
+    .timeline>li .timeline-image h1 {
+        margin-top: 40px;
+        font-size: 60px;
+        line-height: 26px;
+        margin-left: auto;
+    }
+
     .timeline>li .timeline-image h4 {
         margin-top: 30px;
         font-size: 18px;
@@ -633,6 +654,13 @@ section h3.section-subheading {
         width: 170px;
         height: 170px;
         margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h1 {
+        margin-top: 50px;
+        font-size: 60px;
+        line-height: 26px;
+        margin-left: auto;
     }
 
     .timeline>li .timeline-image h4 {
